@@ -1,7 +1,7 @@
-import { html, render } from './node_modules/lit-html/lit-html.js';
+import { html, render } from 'lit-html/lit-html.js';
 
 const message = () => {
-    return html `
+  return html `
     <p>Well, well, well</p>
   `;
 };
