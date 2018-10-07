@@ -1,0 +1,23 @@
+{
+    "name": "lit-html-project-template",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run serve | npm run watch",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "serve": "polymer serve",
+        "watch": "browser-sync start --proxy localhost:8081 --open --startPath \".\" --files \"**/*.html, **/*.js\""
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@polymer/lit-element": "^0.6.1",
+        "lit-html": "^0.11.4"
+    },
+    "devDependencies": {
+        "polymer-cli": "^1.8.0",
+        "npm": "^6.4.1",
+        "browser-sync": "^2.26.0"
+    }
+}
